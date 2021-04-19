@@ -24,7 +24,7 @@ begun to use the short identifier as an accurate, concise, and
 machine-readable way to signal the license for each source code
 file. For more information on this use and examples, see [Appendix V of
 the SPDX
-Specification](https://spdx.github.io/spdx-spec/appendix-V-using-SPDX-short-identifiers-in-source-files/)
+Specification](https://spdx.github.io/spdx-spec/appendix-V-using-SPDX-short-identifiers-in-source-files/).
 
 The SPDX License List also includes a set of [license matching
 guidelines](https://spdx.github.io/spdx-spec/appendix-II-license-matching-guidelines-and-templates/)
@@ -65,14 +65,14 @@ Specification](https://spdx.github.io/spdx-spec/appendix-IV-SPDX-license-express
 Disjunctive licensing can be represented via a license expression using
 the OR operator. For example, a file that is disjunctively licensed
 under either the GPL-2.0 or MIT would be represented using the following
-disjunctive expression: GPL-2.0 OR MIT.
+disjunctive expression: `GPL-2.0 OR MIT`.
  
 ## How does one represent a file that is licensed under two or more licenses?
 
 Conjunctive licensing can be represented via a license expression using
 the AND operator. For example, a file that is subject to the Apache-2.0,
 MIT, and GPL-2.0 would be represented using the following conjunctive
-expression: Apache-2.0 AND MIT AND GPL-2.0
+expression: `Apache-2.0 AND MIT AND GPL-2.0`.
 
 ## Why are some licenses I’ve heard of included on the list and some not?
 
